@@ -1,3 +1,5 @@
+<!DOCTYPE HTML>
+<html>
 <?php
 require "data.php";
 
@@ -32,3 +34,4 @@ function response($status,$status_message,$data)
 	$json_response = json_encode($response);
 	echo $json_response;
 }
+</html>
